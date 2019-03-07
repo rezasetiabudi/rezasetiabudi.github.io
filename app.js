@@ -9,9 +9,6 @@ classApp.config(function($routeProvider){
     templateUrl : 'home.html',
     controller : 'home'
   })
-  .when('/about',{
-    templateUrl : '#!/CV_Reza_Setiabudi.pdf'
-  })
   .when('/detailCurug',{
     templateUrl : 'details.html',
     controller : 'detailCtrl1'
@@ -25,7 +22,7 @@ classApp.config(function($routeProvider){
     controller : 'detailCtrl3'
   })
   .when('/cv',{
-    templateUrl : 'CV_Reza_Setiabudi.pdf'
+    templateUrl : 'cv.html'
   })
 });
 
