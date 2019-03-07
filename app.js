@@ -128,7 +128,7 @@ classApp.controller('login', function($scope, $location){
   $scope.submit = function(){
     var uname = $scope.username;
     var password = $scope.password;
-    if($scope.username == 'admin' && $scope.password == 'admin'){
+    if($scope.username == 'guest' && $scope.password == 'guest'){
       $location.path('/home');
     }
   };
