@@ -22,7 +22,7 @@ classApp.config(function($routeProvider){
     controller : 'detailCtrl3'
   })
   .when('/cv',{
-    templateUrl : 'cv.html'
+    templateUrl : 'CV_Reza_Setiabudi.pdf'
   })
 });
 
