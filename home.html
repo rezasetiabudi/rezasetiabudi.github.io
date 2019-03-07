@@ -1,0 +1,124 @@
+
+
+  <nav class="navbar navbar-white fixed-top navbar-expand-lg">
+    <div class="container">
+
+	    <div class="navbar-translate">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+	      <div class="collapse navbar-collapse">
+	        <ul class="nav">
+	        	<li class="nav-item" >
+	        		<a class="nav-link success" href="/" style="color: green">Log Out</a>
+	        	</li>
+<!-- 	        	<li class="nav-item">
+	        		<a class="nav-link" href="" style="color: green">home</a>
+	        	</li> -->
+	        	<li class="nav-item">
+	        		<a class="nav-link" href="#!/about" style="color: green">about me</a>
+	        	</li>
+	        </ul>
+	     </div>
+    </div>
+  </nav>
+
+  <div class="page-header header-filter top" data-parallax="true" style="background-image: url('assets/img/bg3.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <div class="brand text-center">
+            <h1>OpenWeatherMap Apps</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="main main-raised">
+    <div class="container">
+
+      <div class="section text-center">
+        <h2 class="title">Your city : {{name1}}</h2>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="card card-nav-tabs">
+            <a class="card-header card-header-white">
+              {{name | uppercase}} <br> {{description | uppercase}}
+            </a>
+            <img class="card-img-top" src="{{icon}}" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                <a class="btn btn-info" href="#!/detail{{name}}">Details</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card card-nav-tabs">
+            <a class="card-header card-header-white">
+              {{name1 | uppercase}} <br> {{description1 | uppercase}}
+            </a>
+            <img class="card-img-top" src="{{icon1}}" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                <a class="btn btn-info" href="#!/detail{{name1}}">Details</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="card card-nav-tabs">
+            <a class="card-header card-header-white">
+              {{name2 | uppercase}} <br> {{description2 | uppercase}}
+            </a>
+            <img class="card-img-top" src="{{icon2}}" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                <a class="btn btn-info" href="#!/detail{{name2}}">Details</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ml-auto mr-auto">
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="footer footer-default">
+      <div class="container">
+        <nav class="float-left">
+          <ul>
+            <li>
+              <a href="https://www.creative-tim.com/">
+                Creative Tim
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright float-right">
+          &copy;
+          <script>
+
+            document.write(new Date().getFullYear())
+          </script>, made with <i class="material-icons">favorite</i> by me
+        </div>
+      </div>
+    </footer>
