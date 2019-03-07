@@ -10,7 +10,7 @@ classApp.config(function($routeProvider){
     controller : 'home'
   })
   .when('/about',{
-    templateUrl : 'profile.html'
+    templateUrl : '#!/CV_Reza_Setiabudi.pdf'
   })
   .when('/detailCurug',{
     templateUrl : 'details.html',
