@@ -22,7 +22,8 @@ classApp.config(function($routeProvider){
     controller : 'detailCtrl3'
   })
   .when('/cv',{
-    templateUrl : 'CV_Reza_Setiabudi.pdf'
+//     templateUrl : 'CV_Reza_Setiabudi.pdf'
+    templateUrl : 'CV_Reza_Setiabudi_2021_latest.pdf'
   })
 });
 
